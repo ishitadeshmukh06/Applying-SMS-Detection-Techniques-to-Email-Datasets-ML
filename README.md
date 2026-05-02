@@ -1,8 +1,8 @@
-\# 📧 SMS Spam Classification: Applying SMS Detection Techniques to Email Datasets
+# 📧 SMS Spam Classification: Applying SMS Detection Techniques to Email Datasets
 
 
 
-\## 📖 Overview
+## 📖 Overview
 
 This project develops a \*\*text classification model\*\* to detect spam emails using Natural Language Processing (NLP) and Machine Learning. It applies techniques originally used in SMS spam detection to an email dataset, aiming to filter unwanted communication and protect users from phishing and scam attempts.
 
@@ -16,7 +16,7 @@ The project compares two classifiers — \*\*Multinomial Naive Bayes\*\* and \*\
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 spam-classification/
 
@@ -36,7 +36,7 @@ spam-classification/
 
 
 
-\## 🗂️ Dataset
+## 🗂️ Dataset
 
 \- \*\*Source:\*\* \[SetFit/enron\_spam](https://huggingface.co/datasets/SetFit/enron\_spam) via HuggingFace `datasets`
 
@@ -50,11 +50,11 @@ spam-classification/
 
 
 
-\## 🔍 Project Workflow
+## 🔍 Project Workflow
 
 
 
-\### 1. Exploratory Data Analysis
+### 1. Exploratory Data Analysis
 
 \- Class distribution visualization (Spam vs Ham)
 
@@ -64,7 +64,7 @@ spam-classification/
 
 
 
-\### 2. Text Preprocessing
+### 2. Text Preprocessing
 
 \- Removal of non-alphabetic characters using regex
 
@@ -76,7 +76,7 @@ spam-classification/
 
 
 
-\### 3. Model Training \& Evaluation
+### 3. Model Training \& Evaluation
 
 | Model | Accuracy | F1-Score (CV) |
 
@@ -92,7 +92,7 @@ spam-classification/
 
 
 
-\### 4. Live Prediction
+### 4. Live Prediction
 
 A `predict\_spam(subject, body)` function applies the full preprocessing pipeline and returns whether an email is spam or ham.
 
@@ -102,7 +102,7 @@ A `predict\_spam(subject, body)` function applies the full preprocessing pipelin
 
 
 
-\## 🛠️ Requirements
+## 🛠️ Requirements
 
 
 
@@ -140,7 +140,7 @@ Key libraries:
 
 
 
-\## 🚀 Getting Started
+## 🚀 Getting Started
 
 
 
@@ -184,7 +184,7 @@ Key libraries:
 
 
 
-\## 📊 Results
+## 📊 Results
 
 
 
