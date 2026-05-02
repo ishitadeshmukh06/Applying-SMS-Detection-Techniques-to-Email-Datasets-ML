@@ -22,9 +22,7 @@ spam-classification/
 
 │
 
-├── Project2\_SMS\_Spam\_Classification.ipynb  
-
-├── requirements.txt           
+├── Project2\_SMS\_Spam\_Classification.ipynb           
 
 ├── .gitignore                             
 
